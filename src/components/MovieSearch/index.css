@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: rgb(93, 100, 100);
+    font-size: larger;
+    padding: 10px;
+}
+.search {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border-color: transparent; 
+    width: 900px;
+}
+.button {
+    background-color: rgb(77, 75, 75);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 10px;
+}
+
+
+
+.loading, .error {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ff0000;
+}
